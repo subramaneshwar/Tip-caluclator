@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("background.jpeg");
+    background-size: cover;
+    /* height: 100vh;
+    width: 100vh; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: space-evenly */
+    color: #6c2726;
+
+}
+
+main {
+    height: 700px;
+    width: 500px;
+    /* border: solid 2px; */
+    margin: 50px 500px 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+h1{
+    font-size: 30px;
+}
+.header{
+    padding: 10px;
+    width: 300px;
+    border-bottom: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+.div1{
+    /* border: 1px solid; */
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    padding: 10px;
+    font-size: larger;
+    font-weight: 800;
+}
+#money{
+    margin: 10px;
+    padding: 10px;
+    width: 100px;
+    height: 40px;
+    font-size: medium;
+
+}
+.div2{
+    /* border: 1px solid; */
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    padding: 10px;
+    font-size: larger;
+    font-weight: 800;
+}
+.div3{
+    /* border: 1px solid; */
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    padding-top: 20px;
+    padding-left: 60px;
+    font-size: larger;
+    font-weight: 800;
+}
+select{
+    margin-top: 10px;
+    padding: 10px;
+    font-size: medium;
+    height: 40px;
+    width: 200px;
+    display: flex;
+}
+
+#people{
+    margin-top:10px;
+    padding: 10px;
+    height: 40px;
+    width: 100px;
+    margin-right: 10px;
+    font-size: medium;
+}
+.calu{
+    /* border: 1px solid; */
+    padding: auto;
+    margin-top:50px
+}
+button{
+    height: 50px;
+    width: 300px;
+    background-color: #6c2726;
+    color: white;
+    font-size: large;
+}
+.amount{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+
+}
+.tip{
+    font-size: 20px;
+}
+
+span{
+    font-size: 50px;
+    position: relative;
+    bottom: 30px;
+    padding-left: 10px;
+}
+.dol{
+    padding-top: 20px;
+}
+.each{
+    position: relative;
+    bottom:30px;
+    padding-left: 30px;
+}
